@@ -26,8 +26,8 @@ class CompanyInformation(BaseModel):
     developer_experience_rating : Optional[str] = None
 
 
-# Result that will tools to be called
-class CompanyResult(BaseModel):
+# Result that will get the tools to be called
+class CompanyResultState(BaseModel):
     query: str
     extracted_tools : List[str]
     companies : List[str]
