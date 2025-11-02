@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from src.workflows import Workflows
+from src.workflows  import Workflows
 
 load_dotenv()
 
