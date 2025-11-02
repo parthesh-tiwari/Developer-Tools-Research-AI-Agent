@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "firecrawl-py>=4.5.0",
+    "google-genai>=1.47.0",
     "google-generativeai>=0.8.5",
     "langchain>=1.0.3",
     "langgraph>=1.0.2",

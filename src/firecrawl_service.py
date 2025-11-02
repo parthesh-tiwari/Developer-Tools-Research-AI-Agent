@@ -23,9 +23,7 @@ class FireCrawlService:
                     formats=["markdown"]
                 )
             )
-
             return result
-
         except Exception as e:
             print(e)
             return []

@@ -29,7 +29,7 @@ class CompanyInformation(BaseModel):
 # Result that will get the tools to be called
 class CompanyResultState(BaseModel):
     query: str
-    extracted_tools : List[str]
-    companies : List[str]
-    search_results : List[str]
+    extracted_tools : List[str] = []
+    companies : List[CompanyInformation] = []
+    search_results : List[str] = []
     analysis : Optional[str] = None
